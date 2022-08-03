@@ -3,18 +3,21 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Kalaavistaar</title>
+  <title>KalaaVistaar</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/6deb285bf1.js" crossorigin="anonymous"></script>
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap" rel="stylesheet">
-  <link rel="script" href="mobile.js">
+  <script src="js/shrink-nav.js"></script>
+  <script src="js/mobile.js"></script>
 </head>
 
 <body>
-  <header>
-    <h1><a href="index.html">Kalaavistaar</a></h1>
+  <header id="header">
+    <h1 class="logo"><a href="index.html">KalaaVistaar</a></h1>
     <nav>
       <ul class="nav__links">
         <li><a href="#artforms">Art forms</a></li>
@@ -40,7 +43,7 @@
     <div class="block"></div>
     <div class="parra">
       <img id="lady" src="img/Picture1.png">
-      <h2 id="heading1">Leagacy of Indian artform</h2>
+      <h2 id="heading1">Legacy of Indian artform</h2>
       <div id="parra1">
         <p>
           Artwork brings harmony and connects us to the soul of society. Artworks play a critical role in building a
@@ -69,14 +72,16 @@
     </div>
   </section>
   <section id="about-us">
-    <div class="block-2"></div>
+    <div class="nav-offset">
+      <div class="block-2"></div>
+    </div>
     <div class="who">
       <img id="Picture2" src="img/Picture2.png" alt=""></img>
       <h2 id="heading2">Who Are We</h2>
       <div id="parra2">
         <p>KalaaVistaar is building online and offline platforms to sell and promote art products.</p>
         <p>KalaaVistaar aspires to promote the rich Legacy of Indian Artforms.</p>
-        <p>We aspire to touch the heart of art lovers by easily providing them home décor and</p>
+        <p>We aspire to touch the heart of art lovers by easily providing them home decor and</p>
         <p>handmade utility products. We are constantly looking for artists and art lovers.</p>
       </div>
     </div>
