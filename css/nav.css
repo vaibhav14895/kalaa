@@ -4,7 +4,7 @@ header {
   align-items: center;
   padding: 30px 92px;
   background-color: maroon;
-  position: sticky;
+  position: fixed;
   top: 0;
   z-index: 1000;
   width: 100%;
