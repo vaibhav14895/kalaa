@@ -158,7 +158,6 @@
 
 /* #parra3 .bg-txt{ */
 /*   /* margin-top: -80px; */
-*/
 /*   float: right; */
 /*   padding-right: -80px; */
 /*   font-size: 150px; */
@@ -170,16 +169,57 @@
 /* } */
   
 .blog {
+  height:1119px;
   width: 100%;
-  background-color: rgb(211 165 165);
-  opacity: 0.4;
+  opacity: 1;
   position: relative;
   z-index: 0;
 }
 #BG2 {
+  background-color: rgb(211 165 165);
   position: relative;
   height: 1115px;
   width: 100%;
-  opacity: 0.5;
+  opacity: 0.25;
   z-index: -1;
+}
+.tile{
+  margin-left:91px;
+  position: absolute;
+  top:06%;
+  height: 215px;
+  width: 70%;
+  background-color:white;
+  border-radius: 5px;
+box-shadow: 0px 0px 18px rgb(95 77 77);
+}
+#tile1{
+  margin-top: 42px;
+}
+#tile2{
+  margin-top: 380px;
+  margin-left: 640px;
+}
+#tile3{
+  margin-top: 720px;
+}
+.blogimage{
+  float:left;
+  height:100%;
+  width:25%;
+  background-color: black;
+  border-radius: 5px;
+}
+#blogimage2{
+  float: right;
+}
+
+.blogheading{
+  margin-top:81px;
+  margin-left: 290px;
+  padding-bottom: 2px;
+  
+}
+.blogparra{
+  margin-left:290px;
 }
