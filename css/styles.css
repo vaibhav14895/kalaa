@@ -18,6 +18,17 @@ head {
 }
 
 body {
-  margin-top: 6%;
+  margin-top: 4%;
   height: auto;
+}
+input{
+  border-radius: 2rem;
+  height: 15%;
+  width:29%;
+}
+button{
+  border: none;
+}
+:placeholder-shown {
+  padding-left: 2%;
 }
