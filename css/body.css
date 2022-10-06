@@ -42,8 +42,8 @@
 }
 
 #heading1 {
-  padding: 123px;
-  font-size: 50px;
+  padding: 7%;
+  font-size: 256%;
   font-family: noto system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: maroon;
@@ -56,18 +56,20 @@
 
 #parra1 p {
   padding: 1rem;
-  font-size: 26px;
+  font-size: 162.5%;
+  padding-right: 5%;
 }
 
 /* who we are */
 
 .who {
-  height: 600px;
+  height: 6%;
   width: 100%;
   background-color: #f7f7e3;
   opacity: 1;
-  padding-top: 64px;
+  padding-top: 3%;
   padding-left: 12px;
+  padding-bottom: 13%;
 }
 
 .nav-offset {
@@ -93,17 +95,20 @@
 }
 
 #heading2 {
-  padding: 20px 100px;
-  padding-bottom: 60px;
+  padding: 0% 5%;
+  padding-top: 3%;
   text-decoration: none;
   color: maroon;
-  font-size: 50px;
+  font-size: 256%;
   font-family: noto system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 #parra2 {
-  padding: 20px 100px;
+  padding-left: 5%;
+  padding-top: 1%;
+  font-size: 162.5%;
+  padding-right: 35%;
 }
 
 #parra2 p {
@@ -131,17 +136,26 @@
   position: relative;
 }
 #parra3 {
-  margin: 70px 0px 0px 120px;
+  margin: 4% 0% 0% 8%;
+  max-width: 80vw;
   justify-content: center;
+  /* align-items: center; */
   position: absolute;
   color: white;
   opacity: 3;
 }
+p{
+  max-width: 100vw;
+  padding: 0%;
+  margin: 0%;
+
+}
 
 #parra3 p {
-  margin-left: 65px;
-  padding: 0px;
-  font-size: 45px;
+  width: 80%;
+  padding-top: 2% ;
+  margin:auto;
+  font-size: 60%;
   color: #faffe2;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -153,23 +167,11 @@
   color: #faffe2;
   font-size: 60px;
   margin: 0px;
-  padding: 0px;
+  padding: 0% 0%;
 }
 
-/* #parra3 .bg-txt{ */
-/*   /* margin-top: -80px; */
-/*   float: right; */
-/*   padding-right: -80px; */
-/*   font-size: 150px; */
-/*   font-weight: 100; */
-/*   background: linear-gradient(to right, #ffffff 0%, #540101 100%); */
-/*   -webkit-background-clip: text; */
-/*   background-clip: text; */
-/*   -webkit-text-fill-color: transparent; */
-/* } */
-  
 .blog {
-  height:1119px;
+  height:1114px;
   width: 100%;
   opacity: 1;
   position: relative;
@@ -187,21 +189,23 @@
   margin-left:91px;
   position: absolute;
   top:06%;
-  height: 215px;
+  height: 19%;
   width: 70%;
   background-color:white;
   border-radius: 5px;
-box-shadow: 0px 0px 18px rgb(95 77 77);
+  box-shadow: 0px 0px 18px rgb(95 77 77);
 }
 #tile1{
-  margin-top: 42px;
+  margin-top: 2%;
+  margin-left:14%;
 }
 #tile2{
-  margin-top: 380px;
-  margin-left: 640px;
+  margin-top: 20%;
+  margin-left: 14%;
 }
 #tile3{
-  margin-top: 720px;
+  margin-top: 38%;
+  margin-left: 14%;
 }
 .blogimage{
   float:left;
@@ -213,13 +217,85 @@ box-shadow: 0px 0px 18px rgb(95 77 77);
 #blogimage2{
   float: right;
 }
-
 .blogheading{
   margin-top:81px;
   margin-left: 290px;
-  padding-bottom: 2px;
-  
+  padding-bottom: 2px; 
 }
 .blogparra{
   margin-left:290px;
+}
+.contact{
+  height:400px;
+  width: 100%;
+  background-color: #e2e2e2;
+}
+#contact{
+  background-color: rgb(245,245,220);
+  height:62%;
+  width:80%;
+  border-radius: 3rem;
+  margin:auto;
+  box-shadow:-2px 4px 18px rgb(95 77 77);
+}
+.cred1{
+  margin-left: 56%;
+  height:13%;
+  width: 25%;
+  background-color:maroon;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+}
+.cred2 {
+
+  margin-left: 56%;
+  height: 25%;
+  width: 25%;
+  background-color: maroon;
+}
+.cin {
+  background-color: rgb(208,208,206);
+  border: 0%;
+  border-color:rgb(208, 208, 206) ;
+  margin-left:3%;
+  margin-top: 2%;
+}
+#toknow{
+  padding-top:1% ;
+  width: 16%;
+  margin:auto ;
+  font-family: Montserrat;
+  font-size: 200%;
+  color:maroon;
+}
+#mess{
+  width:77%;
+}
+#submit{
+  color: #b89750;
+  font-weight: 200px  ;
+  float: right;
+  margin-right: 4%;
+  height: 15%;
+  width: 13%;
+  margin-top: 2%;
+  background-color: maroon;
+  border-radius: 2rem;
+  border-color: maroon;
+  box-shadow: 0px 0px 0px black;
+
+}
+#submit:hover{
+  cursor: pointer;
+background-color: #ffffff;
+color: #b89750;
+border-color: #b89750;
+transform: translateY(4px);
+box-shadow: 0px 0px 10px black;
+transition: all 0.3s ease 0s;
+}
+.contactus{
+  height:250px;
+  width:100%;
+  background-color: #f7f7e3;
 }
