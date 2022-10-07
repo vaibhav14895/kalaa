@@ -1,0 +1,83 @@
+/* @media screen and (max-width:1460px){
+    #toknow{
+        width: 22%;
+        font-size: 2 rem ;
+    }
+    
+} */
+@media screen and (max-height: 460px) {
+    .overlay a {
+        font-size: 20px;
+    }
+
+    .overlay .close {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+
+    header {
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+
+    .nav__links,
+    .cta {
+        display: none;
+    }
+
+    .menu {
+        display: initial;
+    }
+}
+@media screen and (max-width:780px) {
+    .buddha{
+        padding-top: 73px;
+        
+    }
+     #logo a {
+        font-size: 1.5rem;
+     }
+    header{
+        padding:3% 9% ;
+        height: 4rem ;
+    }
+    .block{
+       display: none;
+    }
+    #lady{
+        float: none;
+        width: 30%;
+        margin-top:12% ;
+        margin-left:35% ;
+        box-shadow: none;
+    }
+    #heading1{
+        width: 10%;
+        margin: auto;
+        font-size: 2rem;
+        padding-bottom: 1%;
+        width: 100%;
+    }
+    .parra {
+        height: 12%;}
+    #parra1{
+        margin-top: 0%;
+    }
+    #parra1 p{
+        font-size: 1rem;
+    }
+    .block-2{
+        display: none;
+        
+    }
+    #Picture2{
+        height:fit-content;
+        box-shadow: none;
+        width: 40%;
+        margin-top:12%;
+        margin-right: 33%;
+    }
+}
