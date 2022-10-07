@@ -299,3 +299,39 @@ transition: all 0.3s ease 0s;
   width:100%;
   background-color: #f7f7e3;
 }
+#heading{
+  font-weight: bolder;
+  color: maroon ;
+  font-size: 200%;
+  padding-top: 2%;
+  margin-left: 2%;
+}
+.mail{
+  color:maroon;
+  display: block;
+  margin-top: 2%;
+  margin-left: 2%;
+  font-size: 127%;
+}
+.pimg{
+  float: right ;
+  height:20%;
+  width:4%;
+  margin: 0.2rem;
+  border-radius: 1rem;
+}
+.copyright{
+  height:20px;
+  width: 100%;
+  background-color: maroon;   
+}
+.copycl{
+  color: #e2e2e2;
+  padding-left: 2%;
+  display: inline;
+}
+.priv{
+  color:#e2e2e2 ;
+  padding-right: 2%;
+  float: right;
+}
