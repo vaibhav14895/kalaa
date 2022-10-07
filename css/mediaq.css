@@ -34,7 +34,7 @@
 }
 @media screen and (max-width:780px) {
     .buddha{
-        padding-top: 73px;
+        padding-top: 42px;
         
     }
      #logo a {
@@ -73,11 +73,27 @@
         display: none;
         
     }
+    .who{
+        padding:0%;
+        height: 33rem;
+    }
     #Picture2{
+        float: none;
         height:fit-content;
         box-shadow: none;
         width: 40%;
         margin-top:12%;
-        margin-right: 33%;
+        margin-left: 27%;
+    }
+    #heading2{
+        font-size: 2rem;
+        padding-left: 1rem;
+
+    }
+    #parra2{
+        padding-left: 1rem;
+        font-size: 1rem;
+        padding-right: 9%;
+        
     }
 }
