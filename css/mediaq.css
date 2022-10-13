@@ -100,4 +100,14 @@
         padding-right: 9%;
         
     }
+   
+    #parra3 p{
+        font-size: 27%  ;
+    }
+    .fa-quote-left:before{
+        display: none;
+    }
+    #BG1{
+        height: fit-content;
+    }
 }

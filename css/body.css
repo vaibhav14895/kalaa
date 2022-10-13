@@ -139,9 +139,8 @@
 }
 #parra3 {
   margin: 4% 0% 0% 8%;
-  max-width: 80vw;
+  max-width: 85vw;
   justify-content: center;
-  /* align-items: center; */
   position: absolute;
   color: white;
   opacity: 3;
