@@ -100,14 +100,32 @@
         padding-right: 9%;
         
     }
-   
+    #parra3{
+        margin:auto;
+        max-width: 100%;
+    }
     #parra3 p{
-        font-size: 27%  ;
+        font-size: 25%  ;
+        width:69%;
+        margin: auto;
+        margin-top: 1%;
     }
     .fa-quote-left:before{
         display: none;
     }
     #BG1{
         height: fit-content;
+    }
+    .tile{
+        height:7%;
+    }
+    #tile2{
+        margin-top: 34%;
+    }
+    #tile3{
+        margin-top: 67%;
+    }
+    .blogheading{
+        margin-top:9%;
     }
 }
