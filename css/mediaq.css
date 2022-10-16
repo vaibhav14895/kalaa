@@ -116,16 +116,67 @@
     #BG1{
         height: fit-content;
     }
+    .blog{
+        height: 24rem;
+    }
+    #BG2{
+        height:24rem;
+    }
     .tile{
-        height:7%;
+        height:18%;
+    }
+    #tile1{
+        margin-top:9%;
     }
     #tile2{
-        margin-top: 34%;
+        margin-top: 42%;
     }
     #tile3{
-        margin-top: 67%;
+        margin-top: 75%;
     }
     .blogheading{
-        margin-top:9%;
+        margin-top:11%;
+        font-size: 0.7rem;
+        margin-left:33%;
+        padding-bottom: 1px;
+    }
+    .blogparra{
+        font-size: 0.5rem;
+        margin-left:33%;
+    }
+    .blogimage{
+        width:31%;  
+    }
+    .cred1{
+        border-top-left-radius: 0rem;
+        border-top-right-radius: 0rem;
+    }
+    .contact{
+        height:440px;
+    }
+    #contact{
+        height: 70%;
+        border-radius: 0.2rem;
+    }
+    #toknow{
+        width:42%;
+        font-size: 110%;
+        padding-top: 5%;
+    }
+    input {
+        height: 11%;
+        width: 80%;
+    }
+    .cin {
+        margin-left: 10%;
+        margin-top: 6%;
+    }
+    #submit{
+        float: none;
+        height:10%;
+        width: 25%;
+        margin-top: 7%;
+        margin-right: 0%;
+        margin-left: 35%;
     }
 }
