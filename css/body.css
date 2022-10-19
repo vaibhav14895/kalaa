@@ -263,10 +263,9 @@ p{
 }
 #toknow{
   padding-top:1% ;
-  
-  margin:auto ;
+  margin-left: 32vw;  
   font-family: Montserrat;
-  font-size: 200%;
+  font-size: 2.5vw;
   color:maroon;
 }
 #mess{
