@@ -105,10 +105,10 @@
         max-width: 100%;
     }
     #parra3 p{
-        font-size: 25%  ;
+        font-size: 3.7vw  ;
         width:69%;
         margin: auto;
-        margin-top: 1%;
+        margin-top: 3vw;
     }
     .fa-quote-left:before{
         display: none;
@@ -135,13 +135,13 @@
         margin-top: 75%;
     }
     .blogheading{
-        margin-top:11%;
-        font-size: 0.7rem;
+        margin-top:6.5vw;
+        font-size:3.5vw;
         margin-left:33%;
         padding-bottom: 1px;
     }
     .blogparra{
-        font-size: 0.5rem;
+        font-size: 2.3vw;
         margin-left:33%;
     }
     .blogimage{
@@ -157,26 +157,52 @@
     #contact{
         height: 70%;
         border-radius: 0.2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
-    #toknow{
-        width:42%;
+    #contact br{
+        display: none;
+    } 
+    #toknow{    
         font-size: 110%;
         padding-top: 5%;
+        margin-top: 0vw;
+        margin-bottom: 0vw;
     }
     input {
         height: 11%;
         width: 80%;
     }
     .cin {
-        margin-left: 10%;
+        margin-left: 0%;;
         margin-top: 6%;
     }
     #submit{
         float: none;
         height:10%;
         width: 25%;
-        margin-top: 7%;
-        margin-right: 0%;
-        margin-left: 35%;
+        margin-top: 6vw;
+    }
+    #heading{
+        font-size: 7vw;
+    }
+    .contactus{
+        height: 43vw;
+    }
+    .mail{
+        margin-top: 0%;
+        font-size:4vw;
+    }
+    .pimg{
+        height: 6vw;
+        width:6vw;
+    }
+    .copycl{
+        font-size: 2vw;
+    }
+    .priv{
+        font-size:2vw;
+        margin-top: 2.7vw;
     }
 }
