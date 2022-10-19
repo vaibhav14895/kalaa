@@ -1,10 +1,3 @@
-/* @media screen and (max-width:1460px){
-    #toknow{
-        width: 22%;
-        font-size: 2 rem ;
-    }
-    
-} */
 @media screen and (max-height: 460px) {
     .overlay a {
         font-size: 20px;
@@ -184,6 +177,7 @@
         height:10%;
         width: 25%;
         margin-top: 6vw;
+        margin-right: 0vw;
     }
     #heading{
         font-size: 7vw;
